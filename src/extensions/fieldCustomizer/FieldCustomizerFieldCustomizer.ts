@@ -7,17 +7,11 @@ import {
   IFieldCustomizerCellEventParameters
 } from "@microsoft/sp-listview-extensibility";
 
-import * as strings from "FieldCustomizerFieldCustomizerStrings";
 import FieldCustomizer, {
   IFieldCustomizerProps
 } from "./components/FieldCustomizer";
 
-export interface IFieldCustomizerFieldCustomizerProperties {
-  // This is an example; replace with your own property
-  sampleText?: string;
-}
-
-const LOG_SOURCE: string = "FieldCustomizerFieldCustomizer";
+export interface IFieldCustomizerFieldCustomizerProperties {}
 
 export default class FieldCustomizerFieldCustomizer extends BaseFieldCustomizer<
   IFieldCustomizerFieldCustomizerProperties
