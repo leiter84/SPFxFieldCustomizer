@@ -8,5 +8,10 @@
             Required="FALSE"
             Group="SPFx Columns"
             ClientSideComponentId="f52b7abb-62dc-4002-bb19-f5b25a9aa882">
+        <CHOICES>
+            <CHOICE>Green</CHOICE>
+            <CHOICE>Yellow</CHOICE>
+            <CHOICE>Red</CHOICE>
+        </CHOICES>
     </Field>
 </Elements>
