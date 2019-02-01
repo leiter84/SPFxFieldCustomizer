@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{164fe55e-8807-4a9b-81c1-43156a2b8936}"
+            Name="SPFxStatus"
+            DisplayName="Status"
+            Type="Choice"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="f52b7abb-62dc-4002-bb19-f5b25a9aa882">
+    </Field>
+</Elements>

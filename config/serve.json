@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://volvogroup.sharepoint.com/sites/coll-mobilecoe/Lists/VolvoRAGProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "f52b7abb-62dc-4002-bb19-f5b25a9aa882",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "fieldCustomizer": {
+      "pageUrl": "https://volvogroup.sharepoint.com/sites/coll-mobilecoe/Lists/VolvoRAGProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "f52b7abb-62dc-4002-bb19-f5b25a9aa882",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

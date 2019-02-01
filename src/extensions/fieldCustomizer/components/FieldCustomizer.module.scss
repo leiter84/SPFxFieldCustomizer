@@ -1,0 +1,22 @@
+@mixin ball {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cell {
+  .redBall {
+    background-color: #c4001a;
+    @include ball;
+  }
+
+  .greenBall {
+    background-color: #47962d;
+    @include ball;
+  }
+
+  .yellowBall {
+    background-color: #f7d302;
+    @include ball;
+  }
+}
